@@ -13,4 +13,4 @@ include_directories(${OpenCV_INCLUDE_DIRS})    # Variables de entorno
 add_executable(vision_op1 src/main.cpp)
 
 # Indicar donde encontrar todo el codigo fuente de la libreria
-target_link_libraries(img_gray ${OpenCV_LIBS})
+target_link_libraries(vision_op1 ${OpenCV_LIBS})
