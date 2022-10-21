@@ -1,0 +1,3 @@
+/home/jorgem/Documents/Industrial/opencv/video/build/CMakeFiles/rebuild_cache.dir
+/home/jorgem/Documents/Industrial/opencv/video/build/CMakeFiles/edit_cache.dir
+/home/jorgem/Documents/Industrial/opencv/video/build/CMakeFiles/video.dir
