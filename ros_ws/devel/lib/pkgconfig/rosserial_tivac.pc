@@ -1,0 +1,1 @@
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_tivac/lib/pkgconfig/rosserial_tivac.pc

@@ -1,0 +1,7 @@
+rosserial/rosserial_chibios
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_chibios/cmake.lock /home/jorgem/Documents/Industrial/ros_ws/devel/./cmake.lock
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/make_libraries.py /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_chibios/make_libraries.py
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake.lock /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_chibios/cmake.lock
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_chibios/lib/pkgconfig/rosserial_chibios.pc /home/jorgem/Documents/Industrial/ros_ws/devel/lib/pkgconfig/rosserial_chibios.pc

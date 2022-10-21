@@ -1,0 +1,1 @@
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/lib/pkgconfig/motor_controller.pc

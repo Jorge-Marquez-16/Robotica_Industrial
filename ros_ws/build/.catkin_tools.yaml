@@ -1,0 +1,6 @@
+devel_space: /home/jorgem/Documents/Industrial/ros_ws/devel
+install: false
+install_space: /home/jorgem/Documents/Industrial/ros_ws/install
+profile: default
+source_space: /home/jorgem/Documents/Industrial/ros_ws/src
+workspace: /home/jorgem/Documents/Industrial/ros_ws

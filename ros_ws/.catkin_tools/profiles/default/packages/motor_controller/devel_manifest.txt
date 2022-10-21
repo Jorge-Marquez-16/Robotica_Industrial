@@ -1,0 +1,7 @@
+motor_controller
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/cmake.lock /home/jorgem/Documents/Industrial/ros_ws/devel/./cmake.lock
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/motor_controller/cmake/motor_controllerConfig-version.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/motor_controller/cmake/motor_controllerConfig.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/lib/motor_controller/controller_node /home/jorgem/Documents/Industrial/ros_ws/devel/lib/motor_controller/controller_node
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/lib/motor_controller/reference_node /home/jorgem/Documents/Industrial/ros_ws/devel/lib/motor_controller/reference_node
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/lib/pkgconfig/motor_controller.pc /home/jorgem/Documents/Industrial/ros_ws/devel/lib/pkgconfig/motor_controller.pc

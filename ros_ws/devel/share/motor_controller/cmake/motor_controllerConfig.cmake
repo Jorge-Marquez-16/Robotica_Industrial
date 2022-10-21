@@ -1,0 +1,1 @@
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake

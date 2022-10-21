@@ -1,0 +1,2 @@
+rosserial/rosserial
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial/cmake.lock /home/jorgem/Documents/Industrial/ros_ws/devel/./cmake.lock

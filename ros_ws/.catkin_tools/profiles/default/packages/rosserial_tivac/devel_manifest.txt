@@ -1,0 +1,6 @@
+rosserial/rosserial_tivac
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_tivac/cmake.lock /home/jorgem/Documents/Industrial/ros_ws/devel/./cmake.lock
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_tivac/share/rosserial_tivac/cmake/rosserial_tivac-extras.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_tivac/cmake/rosserial_tivac-extras.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_tivac/share/rosserial_tivac/cmake/rosserial_tivacConfig.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_tivac/cmake/rosserial_tivacConfig.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_tivac/share/rosserial_tivac/cmake/rosserial_tivacConfig-version.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_tivac/cmake/rosserial_tivacConfig-version.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_tivac/lib/pkgconfig/rosserial_tivac.pc /home/jorgem/Documents/Industrial/ros_ws/devel/lib/pkgconfig/rosserial_tivac.pc

@@ -1,0 +1,1 @@
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_python/lib/rosserial_python/serial_node.py

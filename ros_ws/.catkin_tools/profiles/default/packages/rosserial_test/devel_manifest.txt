@@ -1,0 +1,5 @@
+rosserial/rosserial_test
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_test/cmake.lock /home/jorgem/Documents/Industrial/ros_ws/devel/./cmake.lock
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_test/cmake/rosserial_testConfig.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig-version.cmake /home/jorgem/Documents/Industrial/ros_ws/devel/share/rosserial_test/cmake/rosserial_testConfig-version.cmake
+/home/jorgem/Documents/Industrial/ros_ws/devel/.private/rosserial_test/lib/pkgconfig/rosserial_test.pc /home/jorgem/Documents/Industrial/ros_ws/devel/lib/pkgconfig/rosserial_test.pc
