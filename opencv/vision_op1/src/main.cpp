@@ -34,7 +34,7 @@ int main(int argc, char** argv)
     imagen_piramidal(image, image_small);
 
 
-    imagen_big(image_small, image_big);
+    imagen_big(image, image_big);
 
     imwrite("Original.jpg", image);   // (nombre de la imagen a guardar, imagen a guardar)
     imwrite("big.jpg", image_big);   // (nombre de la imagen a guardar, imagen a guardar)

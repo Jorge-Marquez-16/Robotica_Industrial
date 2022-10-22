@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jorgeam/9no Semestre/industrial/sort/src/main.cpp
+stdlib.h
+-
+time.h
+-
+iostream
+-
+ctime
+-
+

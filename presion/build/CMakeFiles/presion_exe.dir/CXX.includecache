@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/presion.h
+
+/home/jorgeam/9no Semestre/industrial/presion/src/presion.cpp
+presion.h
+-
+math.h
+-
+iostream
+-
+
