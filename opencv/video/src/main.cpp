@@ -33,6 +33,16 @@ int main(){
     int threshold_value=125;
     int smoothing_value=0;
 
+    int high_H =179;
+    int high_S =255;
+    int high_V =255;
+
+
+    int low_H =0;
+    int low_S =0;
+    int low_V =0;
+
+
     input_video.open(cam_id);
 
     if(!input_video.isOpened())
@@ -53,9 +63,20 @@ int main(){
     cv::namedWindow(window_name, cv::WINDOW_AUTOSIZE);
     //namedWindow("Original", cv::WINDOW_AUTOSIZE);     // (identificador de la ventada, tamanio
     cv:: createTrackbar(trackbar_name ,window_name, &trackbar_value,trackbar_max_value);
-    cv:: createTrackbar(threshold_name ,window_name, &threshold_filter,threshold_max_value);
-    cv:: createTrackbar(threshold_value_name ,window_name, &threshold_value,threshold_value_max_value);
-    cv:: createTrackbar(smoothing_name ,window_name, &smoothing_value,smoothing_max_value);
+    //cv:: createTrackbar(threshold_name ,window_name, &threshold_filter,threshold_max_value);
+    //cv:: createTrackbar(threshold_value_name ,window_name, &threshold_value,threshold_value_max_value);
+    //cv:: createTrackbar(smoothing_name ,window_name, &smoothing_value,smoothing_max_value);
+
+    cv:: createTrackbar("LowH" ,window_name, &low_H, 179);
+    cv:: createTrackbar("LowS" ,window_name, &low_S, 255);
+    cv:: createTrackbar("LowV" ,window_name, &low_V, 255);
+
+    cv:: createTrackbar("HighH" ,window_name, &high_H, 179);
+    cv:: createTrackbar("HighS" ,window_name, &high_S, 255);
+    cv:: createTrackbar("HighV" ,window_name, &high_V, 255);
+
+
+
 
     while(1){
         input_video.read(input_frame);
@@ -96,6 +117,14 @@ int main(){
             Laplacian(dst, output_frame, CV_16S,3,1,0, cv::BORDER_DEFAULT);
             cv::convertScaleAbs(output_frame,output_frame);
         }
+
+        if (trackbar_value==6){
+            cv::Mat imgHSV;
+            cvtColor(input_frame, imgHSV, cv::COLOR_BGR2HSV);
+            inRange(imgHSV, cv::Scalar(low_H,low_S,low_V), cv::Scalar(high_H,high_S,high_V), output_frame);
+        }
+
+
         cv::imshow(window_name, output_frame); // (identificador, imagen a mostrar)
 
         cv::waitKey(1);     // Se espera 1/t milisegundos; Si se ingresa un 0 espera hasta que el usuario cierre la ventana manualmente
