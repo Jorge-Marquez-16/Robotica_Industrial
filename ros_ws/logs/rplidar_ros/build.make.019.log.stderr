@@ -1,0 +1,51 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:1[m[K:
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdo[m[K’
+  384 |   [01;31m[Kdo[m[K \
+      |   [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:46:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   46 |         (stop.data) ? ([01;36m[KROS_INFO[m[K("TRUE,%d",stop)) : (ROS_INFO("False,%d",stop));
+      |                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:46:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kdo[m[K’
+   46 |         (stop.data) ? [32m[K([m[K[01;31m[KR[m[KOS_INFO("TRUE,%d",stop)) : (ROS_INFO("False,%d",stop));
+      |                       [32m[K~[m[K[01;31m[K^[m[K
+      |                        [32m[K)[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[Kwhile[m[K’
+  392 |   } [01;31m[Kwhile[m[K(false)
+      |     [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:46:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   46 |         (stop.data) ? ([01;36m[KROS_INFO[m[K("TRUE,%d",stop)) : (ROS_INFO("False,%d",stop));
+      |                        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kwhile[m[K’
+  392 |   } [01;31m[Kwhile[m[K(false)
+      |     [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:46:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   46 |         (stop.data) ? ([01;36m[KROS_INFO[m[K("TRUE,%d",stop)) : (ROS_INFO("False,%d",stop));
+      |                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:46:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   46 |         (stop.data) ? (ROS_INFO("TRUE,%d",stop)) : (ROS_INFO("False,%d",stop)[01;31m[K)[m[K;
+      |                                                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/rplidarCollision.dir/build.make:63: CMakeFiles/rplidarCollision.dir/src/collision.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/rplidarCollision.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

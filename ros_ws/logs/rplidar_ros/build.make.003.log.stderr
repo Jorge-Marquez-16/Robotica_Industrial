@@ -1,0 +1,9 @@
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jorgem/Documents/Industrial/ros_ws/src/lidar/rplidar_ros/src/collision.cpp:34:6:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kstop[m[K’ from ‘[01m[Kstd_msgs::Bool[m[K’ {aka ‘[01m[Kstd_msgs::Bool_<std::allocator<void> >[m[K’} to ‘[01m[Kbool[m[K’
+   34 |     [01;31m[K(stop)[m[K ? topic_pub.publish(stop): ros::spin();
+      |     [01;31m[K~^~~~~[m[K
+      |      [01;31m[K|[m[K
+      |      [01;31m[Kstd_msgs::Bool {aka std_msgs::Bool_<std::allocator<void> >}[m[K
+make[2]: *** [CMakeFiles/rplidarCollision.dir/build.make:63: CMakeFiles/rplidarCollision.dir/src/collision.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/rplidarCollision.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

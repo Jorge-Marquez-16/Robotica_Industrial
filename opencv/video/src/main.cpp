@@ -7,7 +7,7 @@
 #include <opencv2/opencv.hpp>   // cv:mat
 
 
-const int cam_id =0;
+const int cam_id =2;
 const int width=640;
 const int height=480;
 const int fps=30;
@@ -63,18 +63,18 @@ int main(){
     cv::namedWindow(window_name, cv::WINDOW_AUTOSIZE);
     //namedWindow("Original", cv::WINDOW_AUTOSIZE);     // (identificador de la ventada, tamanio
     cv:: createTrackbar(trackbar_name ,window_name, &trackbar_value,trackbar_max_value);
-    //cv:: createTrackbar(threshold_name ,window_name, &threshold_filter,threshold_max_value);
-    //cv:: createTrackbar(threshold_value_name ,window_name, &threshold_value,threshold_value_max_value);
-    //cv:: createTrackbar(smoothing_name ,window_name, &smoothing_value,smoothing_max_value);
+    cv:: createTrackbar(threshold_name ,window_name, &threshold_filter,threshold_max_value);
+    cv:: createTrackbar(threshold_value_name ,window_name, &threshold_value,threshold_value_max_value);
+    cv:: createTrackbar(smoothing_name ,window_name, &smoothing_value,smoothing_max_value);
 
-    cv:: createTrackbar("LowH" ,window_name, &low_H, 179);
+    /*cv:: createTrackbar("LowH" ,window_name, &low_H, 179);
     cv:: createTrackbar("LowS" ,window_name, &low_S, 255);
     cv:: createTrackbar("LowV" ,window_name, &low_V, 255);
 
     cv:: createTrackbar("HighH" ,window_name, &high_H, 179);
     cv:: createTrackbar("HighS" ,window_name, &high_S, 255);
     cv:: createTrackbar("HighV" ,window_name, &high_V, 255);
-
+    */
 
 
 

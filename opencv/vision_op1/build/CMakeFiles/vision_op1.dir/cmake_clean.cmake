@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vision_op1.dir/src/main.cpp.o"
+  "CMakeFiles/vision_op1.dir/src/piramid.cpp.o"
   "vision_op1"
   "vision_op1.pdb"
 )

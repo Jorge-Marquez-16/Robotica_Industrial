@@ -150,6 +150,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/vision_op1.dir/build.make CMakeFiles/vision_op1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/piramid.o: src/piramid.cpp.o
+
+.PHONY : src/piramid.o
+
+# target to build an object file
+src/piramid.cpp.o:
+	$(MAKE) -f CMakeFiles/vision_op1.dir/build.make CMakeFiles/vision_op1.dir/src/piramid.cpp.o
+.PHONY : src/piramid.cpp.o
+
+src/piramid.i: src/piramid.cpp.i
+
+.PHONY : src/piramid.i
+
+# target to preprocess a source file
+src/piramid.cpp.i:
+	$(MAKE) -f CMakeFiles/vision_op1.dir/build.make CMakeFiles/vision_op1.dir/src/piramid.cpp.i
+.PHONY : src/piramid.cpp.i
+
+src/piramid.s: src/piramid.cpp.s
+
+.PHONY : src/piramid.s
+
+# target to generate assembly for a file
+src/piramid.cpp.s:
+	$(MAKE) -f CMakeFiles/vision_op1.dir/build.make CMakeFiles/vision_op1.dir/src/piramid.cpp.s
+.PHONY : src/piramid.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/piramid.o"
+	@echo "... src/piramid.i"
+	@echo "... src/piramid.s"
 .PHONY : help
 
 

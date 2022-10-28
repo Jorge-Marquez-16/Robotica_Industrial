@@ -6,10 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/home/jorgem/Documents/Industrial/opencv/vision_op1/src/main.cpp
+../include/piramid.h
 iostream
 -
 opencv2/opencv.hpp
+-
+
+/home/jorgem/Documents/Industrial/opencv/vision_op1/src/main.cpp
+piramid.h
+-
+
+/home/jorgem/Documents/Industrial/opencv/vision_op1/src/piramid.cpp
+piramid.h
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp

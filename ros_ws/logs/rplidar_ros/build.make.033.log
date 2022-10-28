@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target rplidarCollision[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rplidarCollision.dir/src/collision.cpp.o[0m
+[ 81%] Built target rplidarNode
+[ 93%] Built target rplidarNodeClient
+[100%] [32m[1mLinking CXX executable /home/jorgem/Documents/Industrial/ros_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarCollision[0m
+[100%] Built target rplidarCollision
