@@ -7,7 +7,7 @@
 #include <opencv2/opencv.hpp>   // cv:mat
 
 
-const int cam_id =2;
+const int cam_id =0;
 const int width=640;
 const int height=480;
 const int fps=30;
